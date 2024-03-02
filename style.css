@@ -13,6 +13,10 @@ header {
     margin: 0 auto;
 }
 
+h1{
+    width: 10000px;
+}
+
 nav{
     position: absolute;
     top:110px;
@@ -40,9 +44,15 @@ nav a:hover{
 .productos{
     width: 940px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px;
+    
 }
 
+
+.Titulo_Laboratorio{
+    text-align: center;
+    padding-bottom: 2rem;
+}
 
 .productos li{
     display: inline-block;
@@ -50,7 +60,7 @@ nav a:hover{
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 10px 10px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -71,6 +81,12 @@ nav a:hover{
 
 .productos li:hover h2{
     font-size: 33px;
+}
+
+.producto-imagen-salandrews{
+    position: relative;
+    width: 256px;
+    right: 5px;
 }
 
 .producto-descripcion{
